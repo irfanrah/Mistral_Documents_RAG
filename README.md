@@ -32,11 +32,18 @@ Clone the repository using the following command:
 git clone https://github.com/irfanrah/Mistral_Documents_RAG
 ```
 
+Run the following command to create and the conda environment using the `environment.yml` file:
+
+```bash
+conda env create -f environment.yml
+conda activate mmdet
+```
+
 Navigate into the directory and run the script:
 
 ```bash
 cd Mistral_Documents_RAG
-python mistral_rag.py
+python mistral_ragV2.py
 ```
 
 
